@@ -1,0 +1,37 @@
+[
+  {
+      "title":"Mission",
+      "label":"OUR MISSION"
+  },
+  {
+      "title":"Opportunity",
+      "label":"THE OPPORTUNITY"
+  },
+  {
+      "title":"Value",
+      "label":"OUR VALUE PROPOSITION"
+  },
+  {
+      "title":"Business Model",
+      "label":"BUSINESS MODEL"
+  },
+  {
+      "title":"Adoption",
+      "label":"CUSTOMER ADOPTION"
+  },
+
+  {
+      "title":"Team",
+      "label":"THE TEAM"
+  },
+
+  {
+      "title":"Traction",
+      "label":"OUR TRACTION"
+  },
+
+  {
+      "title":"Investment",
+      "label":"THE INVESTMENT"
+  }
+]

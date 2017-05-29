@@ -1,0 +1,71 @@
+[
+  {
+      "name":"Jessica Raymond",
+      "job_title":"Chief Executive Officer",
+      "description":"",
+      "image":"04-Team-Raymond"
+  },
+  {
+      "name":"Patricia Natalie",
+      "job_title":"Design",
+      "description":"",
+      "image":"04-Team-Natalie"
+  },
+
+  {
+      "name":"Shauna Savala",
+      "job_title":"Operations",
+      "description":"",
+      "image":"04-Team-Savala"
+  },
+  {
+      "name":"Margaret Schmitt",
+      "job_title":"Social Media",
+      "description":"",
+      "image":"04-Team-Schmitt"
+  },
+  {
+      "name":"Jonathan Bush",
+      "job_title":"CEO and Founder of Athenahealth. Author of \"Where Does It Hurt?: An Entrepreneur's Guide to Fixing Health Care\"",
+      "description":"",
+      "image":"04-Team-Advisor-Bush"
+  },
+  {
+      "name":"Vikas Duvvuri, MD, PhD",
+      "job_title":"Medical Director Fremont Hospital. PhD Neuroscience, Standford School of Medicine. MD, UCSD School of Medicine",
+      "description":"",
+      "image":"04-Team-Advisor-Duvvuri"
+  },
+  {
+      "name":"Norman Kim, PhD",
+      "job_title":"Clinical Director Reasons Eating Disorder Center. PhD Clinical Psychology, UCLA. Expert in neurobiologic base of emotion recognition",
+      "description":"",
+      "image":"04-Team-Advisor-Kim"
+  },
+
+  {
+      "name":"Adam Stone",
+      "job_title":"Product Manager at Google for global payments platform. MBA, Yale School of Management. MS in Computer Science, Columbia",
+      "description":"",
+      "image":"04-Team-Advisor-Stone"
+  },
+  {
+      "name":"Chris Montgomery",
+      "job_title":"Media and entertainment executive. Honorary Professor of Business, University of Edinburgh",
+      "description":"",
+      "image":"04-Team-Advisor-Montgomery"
+  },
+
+  {
+      "name":"Nikki Rollo, PhD, LMFT",
+      "job_title":"National Director of Program Development Reasons Eating Disorder Center. PhD Depth Psychology, Pacifica",
+      "description":"",
+      "image":"04-Team-Advisor-Rollo"
+  },
+
+  {
+      "name":"Zach Nies",
+      "job_title":"VP of Education at Techstars. Computer Science faculty at CU Boulder. Former Chief Technologist Rally Software",
+      "image":"04-Team-Advisor-Nies"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+      "problem":"Misinformed",
+      "problemDescription":"Research shows restrictive diets are ineffective at long-term weight management.",
+      "solution":"Education",
+      "solutionDescription":"Our subject matter experts share valuable knowledge on how to make lifestyle changes that last."
+  },
+  {
+      "problem":"Anxious and Depressed",
+      "problemDescription":"Many people turn towards food or away from food in an effort to cope with mood disorders.",
+      "solution":"Coping Strategies",
+      "solutionDescription":"We provide evidence-based strategies to help people manage and improve their anxiety and depression."
+  },
+  {
+      "problem":"Inadequately Supported",
+      "problemDescription":"Failed attempts to control food and weight lead to guilt, shame, disappointment, and isolation.",
+      "solution":"Support",
+      "solutionDescription":"We connect people to certified coaches who provide nutritional and emotional chat-based support."
+  }
+]

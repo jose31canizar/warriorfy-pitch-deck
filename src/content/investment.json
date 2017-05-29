@@ -1,0 +1,54 @@
+[
+  {
+      "title":"Salaries",
+      "description":"Our top priority is to hire for engineering, marketing, and operations:",
+      "list":[
+        "Full stack developer",
+        "Junior developer",
+        "Audio Producer",
+        "Brand Manager and Publicist",
+        "Customer Support",
+        "Business Operations"
+      ]
+  },
+  {
+      "title":"Marketing",
+      "description":"We've proven product-market fit. Now it's time to scale with fun and creative marketing strategies.",
+      "list":[
+        "Lead generation",
+        "Affiliates",
+        "Press"
+      ]
+  },
+  {
+      "title":"Legal and Accounting",
+      "description":"It's a little extra work to play in both healthcare and media, but worth it.",
+      "list":[
+        "HIPAA and HITECH compliance of PHI",
+        "Licensing of artwork and audio content",
+        "Distribution of revenue share to content creators and coaches"
+      ]
+  },
+  {
+      "title":"Business Development",
+      "description":"Travel expenses to conferences to build partnerships and brand awareness.",
+      "list":[
+        "HXR: Jun 20-21 (Boston)",
+        "Health 2.0: Oct 1-4 (SF)",
+        "SxSW: Mar 9-12 (Austin)",
+        "IAEDP: Mar 22-25 (Orlando)"
+      ]
+  },
+  {
+      "title":"Company Culture",
+      "description":"Office space, employee training, winter work retreat, third party providers.",
+      "list":[
+        "Full stack developer",
+        "Junior developer",
+        "Audio Producer",
+        "Brand Manager and Publicist",
+        "Customer Support",
+        "Business Operations"
+      ]
+  }
+]

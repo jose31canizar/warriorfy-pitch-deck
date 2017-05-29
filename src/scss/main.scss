@@ -1,7 +1,19 @@
 @import './_components/NavBar.scss';
+@import './_components/Label.scss';
+
+@import './section.scss';
 
 body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+
+  p, h1, h2, h3, h4 {
+    margin: 0;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Oswald';
+    font-weight: 100;
+  }
 }

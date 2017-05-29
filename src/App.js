@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavBar from './components/NavBar';
+import Sections from './Sections';
 
 class App extends Component {
   constructor(props) {
@@ -17,6 +18,7 @@ class App extends Component {
     return (
       <div>
         <NavBar handleClick={this.handleClick}/>
+        <Sections/>
       </div>
     );
   }

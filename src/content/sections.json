@@ -12,6 +12,10 @@
       "label":"OUR VALUE PROPOSITION"
   },
   {
+      "title":"Traction",
+      "label":"OUR TRACTION"
+  },
+  {
       "title":"Business Model",
       "label":"BUSINESS MODEL"
   },
@@ -24,12 +28,6 @@
       "title":"Team",
       "label":"THE TEAM"
   },
-
-  {
-      "title":"Traction",
-      "label":"OUR TRACTION"
-  },
-
   {
       "title":"Investment",
       "label":"THE INVESTMENT"

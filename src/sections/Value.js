@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Value extends Component {
   render() {
     return (
-    <div>
+    <div className='value'>
       <div className='section-header'>
         <h2>Our value proposition has been verified. In the process, we've found a blue ocean opportunity, uncharted waters at the intersection of four growing markets.</h2>
       </div>

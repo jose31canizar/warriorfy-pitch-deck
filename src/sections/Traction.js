@@ -4,9 +4,10 @@ import data from '../content/traction';
 class Traction extends Component {
   render() {
     return (
-    <div className="container">
-        <div className='header'>
-          <h2>The Journey Until Now...Boostrapped MoM Platform Growth</h2>
+    <div className='traction'>
+        <div className='section-header'>
+          <h2>The Journey Until Now...</h2>
+          <h2>Boostrapped MoM Platform Growth</h2>
         </div>
         <div className='traction-image-container'>
           <img className='traction-image' src={require('../assets/img/05-Market-Validation-Growth.png')} />

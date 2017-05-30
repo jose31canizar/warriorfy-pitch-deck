@@ -48,6 +48,9 @@ $nav-bar-background: white;
     flex-direction: column;
     align-items: center;
 
+    h3 {
+      white-space: nowrap;
+    }
 
   }
 }

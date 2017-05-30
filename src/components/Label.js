@@ -7,7 +7,9 @@ class Label extends Component {
       <div className='label-line'>
       </div>
       <div className='label-box'>
+        <h2>
         {this.props.children}
+        </h2>
       </div>
     </div>
   );

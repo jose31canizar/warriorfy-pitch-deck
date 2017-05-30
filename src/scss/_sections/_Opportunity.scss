@@ -1,0 +1,26 @@
+.opportunity {
+  .block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px 0px;
+
+    h3, p {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+
+    @media all and (max-width: $skinny-mobile-width) {
+      h3, p {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+
+  }
+}

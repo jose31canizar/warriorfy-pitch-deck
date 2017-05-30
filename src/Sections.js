@@ -7,10 +7,8 @@ class Sections extends Component {
     return (
     <div>
       {data.map((block, i) => (
-        <Section>
-          <h1>
-            {block.title}
-          </h1>
+        <Section section={block.title}>
+          {block.title}
         </Section>
       ))}
     </div>

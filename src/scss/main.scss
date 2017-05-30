@@ -1,7 +1,23 @@
+$mobile-width: 1200px;
+$skinny-mobile-width: 800px;
+
+
 @import './_components/NavBar.scss';
 @import './_components/Label.scss';
+@import './Intro.scss';
+
+@import './_sections/Mission.scss';
+@import './_sections/Opportunity.scss';
+@import './_sections/Value.scss';
+@import './_sections/Traction.scss';
+@import './_sections/BusinessModel.scss';
+@import './_sections/Adoption.scss';
+@import './_sections/Team.scss';
+@import './_sections/Investment.scss';
 
 @import './section.scss';
+
+
 
 body {
   margin: 0;
@@ -12,8 +28,44 @@ body {
     margin: 0;
   }
 
+  p {
+    font-family: Arial;
+  }
+
   h1, h2, h3 {
     font-family: 'Oswald';
     font-weight: 100;
+  }
+
+  h1 {
+    font-size: 5.135em;
+    
+    @media all and(max-width: $mobile-width) {
+      font-size: 2.4em;
+    }
+
+    @media all and(max-width: $skinny-mobile-width) {
+      font-size: 1.4em;
+    }
+  }
+
+  h2 {
+    font-size: 3.582em;
+  }
+
+  h3 {
+    font-size: 1.4em;
+  }
+
+  h4 {
+    font-size: 1.3em;
+  }
+
+  h5 {
+    font-size: 1em;
+  }
+
+  h6 {
+    font-size: 1em;
   }
 }

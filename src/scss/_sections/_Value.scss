@@ -1,0 +1,27 @@
+.value-image-container {
+  width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  .value-image{
+    width: 75%;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    @media all and(max-width: $mobile-width) {
+        width: 100%;
+    }
+  }
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .footer-text {
+      width: 50%;
+      margin-bottom: 30px;
+
+    }
+  }

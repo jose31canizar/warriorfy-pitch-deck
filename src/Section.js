@@ -3,6 +3,7 @@ import Label from './components/Label';
 
 import Mission from './sections/Mission';
 import Opportunity from './sections/Opportunity';
+import Value from './sections/Value';
 
 
 class Section extends Component {
@@ -12,6 +13,8 @@ class Section extends Component {
       section = <Mission />;
     } else if(this.props.section == 'Opportunity') {
       section = <Opportunity />;
+    } else if(this.props.section == 'Value') {
+      section = <Value />
     }
     return (
     <div className='section'>

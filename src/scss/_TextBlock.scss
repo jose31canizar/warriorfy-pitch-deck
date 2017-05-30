@@ -1,0 +1,16 @@
+.text-block-grid {
+  display: inline-flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 75%;
+  .text-block-row {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+
+    .text-block{
+      border: 2px solid black;
+      text-align: left;
+    }
+  }
+}

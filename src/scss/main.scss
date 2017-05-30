@@ -32,9 +32,13 @@ body {
     font-family: Arial;
   }
 
-  h1, h2, h3 {
+  h1, h2, h3, strong {
     font-family: 'Oswald';
     font-weight: 100;
+  }
+
+  strong {
+    font-weight: 400;
   }
 
   h1 {

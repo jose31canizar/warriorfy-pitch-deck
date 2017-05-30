@@ -14,10 +14,8 @@ class Value extends Component {
       <div className = 'value-image-container'>
             <img className={'value-image'} src={require('../assets/img/05-Market-Competitive-Landscape.png')}/>
       </div>
-      <div className='footer'>
-        <div className='footer-text'>
-          <h3>Warriorfy is the first to combine educational audio content, self-tracking tools, and 1:1 support into one beautifully designed and easy-to-use platform.</h3>
-        </div>
+      <div className='section-footer'>
+          <h3 className='section-footer-text'>Warriorfy is the first to combine educational audio content, self-tracking tools, and 1:1 support into one beautifully designed and easy-to-use platform.</h3>
       </div>
     </div>
   );

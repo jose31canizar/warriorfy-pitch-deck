@@ -8,32 +8,32 @@ class NavBar extends Component {
       <div className='nav-bar-item'>
         <div className='nav-bar-circle'>
         </div>
-        <h3>
+        <h4>
           Warriorfy
-        </h3>
+        </h4>
       </div>
       <div className='nav-bar-item'>
         <div className='nav-bar-circle'>
         </div>
-        <h3>
+        <h4>
           Introduction
-        </h3>
+        </h4>
       </div>
       {data.map((item, i) => (
         <div className='nav-bar-item'>
           <div className='nav-bar-circle'>
           </div>
-          <h3>
+          <h4>
           {item.title}
-          </h3>
+          </h4>
         </div>
       ))}
       <div className='nav-bar-item'>
         <div className='nav-bar-circle'>
         </div>
-        <h3>
+        <h4>
           Angel List
-        </h3>
+        </h4>
       </div>
       <div className='nav-bar-line-container'>
         <div className='nav-bar-line'>

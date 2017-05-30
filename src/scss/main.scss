@@ -1,6 +1,6 @@
 $mobile-width: 1200px;
 $skinny-mobile-width: 800px;
-
+$global-color: #534b5d;
 
 @import './_components/NavBar.scss';
 @import './_components/Label.scss';
@@ -20,17 +20,32 @@ $skinny-mobile-width: 800px;
 
 
 
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
   overflow-x: hidden;
+  box-sizing: border-box;
+
+  .wrapper {
+    overflow-x: hidden;
+  }
 
   p, h1, h2, h3, h4, h5, h6 {
     margin: 0;
+    color: $global-color;
   }
 
   p {
     font-family: Arial;
+    font-size: 1.5em;
   }
 
   h1, h2, h3, h4, h5, h6, strong {
@@ -44,35 +59,39 @@ body {
 
   h1 {
     font-size: 5.135em;
+    font-weight: 300;
 
     @media all and(max-width: $mobile-width) {
-      font-size: 2.4em;
+      font-size: 2.7em;
     }
 
     @media all and(max-width: $skinny-mobile-width) {
-      font-size: 1.4em;
+      font-size: 2.4em;
     }
   }
 
   h2 {
     font-size: 3.582em;
+    font-weight: 400;
+    color: #8e8094;
     @media all and(max-width: $mobile-width) {
-      font-size: 2.1em;
+      font-size: 2.2em;
     }
 
     @media all and(max-width: $skinny-mobile-width) {
-      font-size: 1.4em;
+      font-size: 2.1em;
     }
   }
 
   h3 {
-    font-size: 1.4em;
+    font-size: 2.1em;
+    font-weight: 100;
     @media all and(max-width: $mobile-width) {
-      font-size: 1.1em;
+      font-size: 1.7em;
     }
 
     @media all and(max-width: $skinny-mobile-width) {
-      font-size: 0.9em;
+      font-size: 1.4em;
     }
   }
 

@@ -7,14 +7,14 @@ class Opportunity extends Component {
     return (
     <div className='opportunity'>
       <div className='section-header'>
-        <h2>Worldwide, 2.3 billion people are overweight or obese and rates of eating disorders are skyrocketing.</h2>
+        <h1>Worldwide, 2.3 billion people are overweight or obese and rates of eating disorders are skyrocketing.</h1>
       </div>
       <Label>
         Problems
       </Label>
       {data.map((block, i) => (
         <div className='block'>
-          <h3><strong>{block.problem}</strong></h3>
+          <h2>{block.problem}</h2>
           <p>{block.problemDescription}</p>
         </div>
       ))}
@@ -23,7 +23,7 @@ class Opportunity extends Component {
       </Label>
       {data.map((block, i) => (
         <div className='block'>
-          <h3><strong>{block.solution}</strong></h3>
+          <h2>{block.solution}</h2>
           <p>{block.solutionDescription}</p>
         </div>
       ))}

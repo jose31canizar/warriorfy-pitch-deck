@@ -1,11 +1,13 @@
 .traction {
-  .traction-image-container{
+  width: 100%;
+  .traction-image-container {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    .traction-image{
-      width: 80%;
+
+    .traction-image {
+      width: 75%;
     }
   }
 }

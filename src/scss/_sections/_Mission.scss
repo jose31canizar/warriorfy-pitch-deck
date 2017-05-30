@@ -1,7 +1,10 @@
 .mission {
   .mission-image {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
+    @media all and (max-width: $mobile-width) {
+      margin-bottom: 20px;
+    }
   }
 
   h1 {

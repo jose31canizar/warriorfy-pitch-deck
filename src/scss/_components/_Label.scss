@@ -10,16 +10,16 @@ $label-color: #343e51;
     background: $label-color;
     height: 2px;
     position: absolute;
+
+    @media all and(max-width: $skinny-mobile-width) {
+      width: 75%;
+    }
   }
 
   .label-box {
     background: white;
     z-index: 3;
     border: 2px solid $label-color;
-    padding: 0px 25px;
-  }
-
-  h2 {
-    font-size: 2.0em;
+    padding: 5px 20px;
   }
 }

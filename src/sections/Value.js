@@ -5,7 +5,7 @@ class Value extends Component {
     return (
     <div className='value'>
       <div className='section-header'>
-        <h2>Our value proposition has been verified. In the process, we've found a blue ocean opportunity, uncharted waters at the intersection of four growing markets.</h2>
+        <h1>Our value proposition has been verified. In the process, we've found a blue ocean opportunity, uncharted waters at the intersection of four growing markets.</h1>
       </div>
       <div className='section-subtitle'>
 
@@ -15,7 +15,9 @@ class Value extends Component {
             <img className={'value-image'} src={require('../assets/img/05-Market-Competitive-Landscape.png')}/>
       </div>
       <div className='section-footer'>
-          <h3 className='section-footer-text'>Warriorfy is the first to combine educational audio content, self-tracking tools, and 1:1 support into one beautifully designed and easy-to-use platform.</h3>
+          <h2>
+          Warriorfy is the first to combine educational audio content, self-tracking tools, and 1:1 support into one beautifully designed and easy-to-use platform.
+          </h2>
       </div>
     </div>
   );

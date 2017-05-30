@@ -1,3 +1,5 @@
+$text-block-color: #534b5d;
+
 .text-block-grid {
   display: inline-flex;
   align-items: center;
@@ -8,16 +10,36 @@
   .text-block-row {
     display: inline-flex;
     justify-content: space-between;
-    width: 100%;
+    width: 70%;
+
+    @media all and(max-width: $mobile-width) {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      width: 50%;
+    }
 
     .text-block{
-      border: 2px solid black;
+      border: 3px solid $text-block-color;
       text-align: left;
       padding: 10px;
-      border-radius: 5px;
+      border-radius: 10px;
+      @media all and(max-width: $mobile-width) {
+        margin: 50px 0px;
+      }
       h6 {
         font-size: 1.5em;
+        color: $text-block-color;
         margin-bottom: 10px;
+      }
+      .text-block-description {
+        .roles {
+          .role {
+            p {
+              color: $text-block-color;
+            }
+          }
+        }
       }
     }
   }

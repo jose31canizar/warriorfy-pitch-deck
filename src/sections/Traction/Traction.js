@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import data from '../content/traction';
+import data from '../../content/traction';
 
 class Traction extends Component {
   render() {
@@ -10,7 +10,7 @@ class Traction extends Component {
           <h1>Boostrapped MoM Platform Growth</h1>
         </div>
         <div className='traction-image-container'>
-          <img className='traction-image' src={require('../assets/img/05-Market-Validation-Growth.png')} />
+          <img className='traction-image' src={require('../../assets/img/05-Market-Validation-Growth.png')} />
         </div>
         <div className='text-block-grid'>
           <div className='text-block-row'>

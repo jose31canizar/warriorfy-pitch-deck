@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import data from '../content/sections.json';
+import data from '../../content/sections.json';
 
 class NavBar extends Component {
   render() {

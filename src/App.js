@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import NavBar from './components/NavBar';
+import NavBar from './components/NavBar/NavBar';
 import Sections from './Sections';
-import Intro from './Intro';
+import Intro from './sections/Intro/Intro';
 
 class App extends Component {
   constructor(props) {

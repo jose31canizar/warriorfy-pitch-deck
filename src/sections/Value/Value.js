@@ -12,7 +12,7 @@ class Value extends Component {
         <h3>We've reached 750K people who struggle with their relationship to food and body with zero ad spend.</h3>
       </div>
       <div className = 'value-image-container'>
-            <img className={'value-image'} src={require('../assets/img/05-Market-Competitive-Landscape.png')}/>
+            <img className={'value-image'} src={require('../../assets/img/05-Market-Competitive-Landscape.png')}/>
       </div>
       <div className='section-footer'>
           <h2>

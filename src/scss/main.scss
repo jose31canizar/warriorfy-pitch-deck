@@ -2,37 +2,27 @@ $mobile-width: 1200px;
 $skinny-mobile-width: 800px;
 $global-color: #534b5d;
 
-@import './_components/NavBar.scss';
-@import './_components/Label.scss';
-@import './Intro.scss';
+@import '../components/NavBar/NavBar.scss';
+@import '../components/Label/Label.scss';
 
-@import './_sections/Mission.scss';
-@import './_sections/Opportunity.scss';
-@import './_sections/Value.scss';
-@import './_sections/Traction.scss';
-@import './_sections/BusinessModel.scss';
-@import './_sections/Adoption.scss';
-@import './_sections/Team.scss';
-@import './_sections/Investment.scss';
+@import '../sections/Intro/Intro.scss';
+@import '../sections/Mission/Mission.scss';
+@import '../sections/Opportunity/Opportunity.scss';
+@import '../sections/Value/Value.scss';
+@import '../sections/Traction/Traction.scss';
+@import '../sections/BusinessModel/BusinessModel.scss';
+@import '../sections/Adoption/Adoption.scss';
+@import '../sections/Team/Team.scss';
+@import '../sections/Investment/Investment.scss';
 
 @import './section.scss';
 @import './TextBlock.scss';
-
-
-
-html {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow-x: hidden;
-}
 
 body {
   margin: 0;
   padding: 0;
   width: 100%;
   overflow-x: hidden;
-  box-sizing: border-box;
 
   .wrapper {
     overflow-x: hidden;

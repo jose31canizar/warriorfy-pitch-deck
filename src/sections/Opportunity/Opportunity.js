@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import data from '../content/opportunity';
-import Label from '../components/Label';
+import data from '../../content/opportunity';
+import Label from '../../components/Label/Label';
 
 class Opportunity extends Component {
   render() {

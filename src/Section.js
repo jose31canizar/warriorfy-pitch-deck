@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import Label from './components/Label';
+import Label from './components/Label/Label';
 
-import Mission from './sections/Mission';
-import Opportunity from './sections/Opportunity';
-import Value from './sections/Value';
-import Traction from './sections/Traction';
-import BusinessModel from './sections/BusinessModel';
-import Adoption from './sections/Adoption';
-import Team from './sections/Team';
-import Investment from './sections/Investment';
+import Mission from './sections/Mission/Mission';
+import Opportunity from './sections/Opportunity/Opportunity';
+import Value from './sections/Value/Value';
+import Traction from './sections/Traction/Traction';
+import BusinessModel from './sections/BusinessModel/BusinessModel';
+import Adoption from './sections/Adoption/Adoption';
+import Team from './sections/Team/Team';
+import Investment from './sections/Investment/Investment';
 
 
 class Section extends Component {

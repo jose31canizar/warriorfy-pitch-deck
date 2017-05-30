@@ -8,7 +8,7 @@ class Label extends Component {
       </div>
       <div className='label-box'>
         <h2>
-        {this.props.children}
+          {this.props.children}
         </h2>
       </div>
     </div>

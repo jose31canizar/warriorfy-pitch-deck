@@ -39,7 +39,7 @@ body {
 
   h1 {
     font-size: 5.135em;
-    
+
     @media all and(max-width: $mobile-width) {
       font-size: 2.4em;
     }
@@ -51,21 +51,56 @@ body {
 
   h2 {
     font-size: 3.582em;
+    @media all and(max-width: $mobile-width) {
+      font-size: 2.1em;
+    }
+
+    @media all and(max-width: $skinny-mobile-width) {
+      font-size: 1.4em;
+    }
   }
 
   h3 {
     font-size: 1.4em;
+    @media all and(max-width: $mobile-width) {
+      font-size: 1.1em;
+    }
+
+    @media all and(max-width: $skinny-mobile-width) {
+      font-size: 0.9em;
+    }
   }
 
   h4 {
     font-size: 1.3em;
+    @media all and(max-width: $mobile-width) {
+      font-size: 0.9em;
+    }
+
+    @media all and(max-width: $skinny-mobile-width) {
+      font-size: 0.7em;
+    }
   }
 
   h5 {
     font-size: 1em;
+    @media all and(max-width: $mobile-width) {
+      font-size: 0.7em;
+    }
+
+    @media all and(max-width: $skinny-mobile-width) {
+      font-size: 0.5em;
+    }
   }
 
   h6 {
     font-size: 1em;
+    @media all and(max-width: $mobile-width) {
+      font-size: 0.5em;
+    }
+
+    @media all and(max-width: $skinny-mobile-width) {
+      font-size: 0.4em;
+    }
   }
 }

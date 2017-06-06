@@ -12,7 +12,7 @@ class Team extends Component {
     console.log(middleRow);
     return (
     <div className="Team">
-      <div className='team-header-text'>
+      <div className='section-header'>
           <h2>We build things people need and love to use.</h2>
         </div>
 

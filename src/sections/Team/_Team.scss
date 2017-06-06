@@ -83,8 +83,7 @@ $h2-team-text-color: #3d3d41;
   .team-members-row {
     display: flex;
     justify-content: center;
-    width: 75vw;
-    padding: 50px;
+    padding: 50px 0px;
 
     @media all and(max-width: $mobile-width) {
     display: block;

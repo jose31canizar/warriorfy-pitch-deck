@@ -17,14 +17,13 @@ $nav-bar-text-color: #645e6f;
   .nav-bar-line-container {
     position: absolute;
     width: 100%;
-    height: $height;
+    padding-bottom: 29px;
     display: flex;
-    margin-top: 32.5px;
     justify-content: center;
 
     .nav-bar-line {
       background: $nav-bar-color;
-      height: 2px;
+      height: 1px;
       width: 90%;
     }
   }
@@ -32,7 +31,7 @@ $nav-bar-text-color: #645e6f;
   .nav-bar-circle {
     width: 35px;
     height: 35px;
-    border: 2.5px solid $nav-bar-color;
+    border: 1px solid $nav-bar-color;
     border-radius: 50%;
     background: $nav-bar-background;
     transition: all 0.2s ease-in-out;

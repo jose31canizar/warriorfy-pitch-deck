@@ -15,7 +15,7 @@ class Opportunity extends Component {
       {data.map((block, i) => (
         <div className='block'>
           <h2>{block.problem}</h2>
-          <p>{block.problemDescription}</p>
+          <h3>{block.problemDescription}</h3>
         </div>
       ))}
       <Label>
@@ -24,7 +24,7 @@ class Opportunity extends Component {
       {data.map((block, i) => (
         <div className='block'>
           <h2>{block.solution}</h2>
-          <p>{block.solutionDescription}</p>
+          <h3>{block.solutionDescription}</h3>
         </div>
       ))}
     </div>

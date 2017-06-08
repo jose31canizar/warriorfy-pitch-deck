@@ -9,5 +9,28 @@
     .traction-image {
       width: 75%;
     }
+
+  }
+  .featured-images {
+    z-index: 9999;
+    width: 70%;
+    padding-top: 10pt;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    @media all and(max-width: $skinny-mobile-width) {
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .featured-in {
+      width: 15%;
+      padding: 0pt;
+      @media all and(max-width: $skinny-mobile-width) {
+        width: 50%;
+      }
+    }
   }
 }

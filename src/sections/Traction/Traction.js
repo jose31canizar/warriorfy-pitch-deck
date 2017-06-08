@@ -30,6 +30,18 @@ class Traction extends Component {
             ))}
             </div>
           </div>
+          <div className='header'>
+          <h6>Featured In</h6>
+        </div>
+        <div className='traction-image-container'>
+          <div className='featured-images'>
+            <img className='featured-in' src={require('../../assets/img/08-Featured-Self.png')} alt='Warriorfy'/>
+            <img className='featured-in' src={require('../../assets/img/08-Featured-redbook.png')} alt='Warriorfy'/>
+            <img className='featured-in' src={require('../../assets/img/08-Featured-Forbes.png')} alt='Warriorfy'/>
+            <img className='featured-in' src={require('../../assets/img/08-Featured-PT.png')} alt='Warriorfy'/>
+            <img className='featured-in' src={require('../../assets/img/08-Featured-Shape.png')} alt='Warriorfy'/>
+          </div>
+        </div>
     </div>
   );
   }

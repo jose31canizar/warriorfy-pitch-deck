@@ -39,8 +39,9 @@ $investment-color: white;
 
 
 
-.text-block-milestone {
+.milestones {
   width: 50%;
+  padding-right: 50px;
 
   @media all and (max-width: $skinny-mobile-width) {
       width: 97%;
@@ -61,15 +62,24 @@ $investment-color: white;
 
 
 
-.milestone {
-  font-weight: 900;
+.goal {
+  font-weight: 200;
   padding: 0;
-  width: 85%;
+  width: 100%;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+
+  p{
+    font-family: Oswald;
+    width: 79%;
+    @media all and(max-width: $mobile-width) {
+      width: 100%;
+    }
+    padding: 10px 0px;
+  }
 }
 
-.milestone-title {
-    text-align: right;
-}
 
 .milestone-date {
   p
@@ -94,15 +104,21 @@ $investment-color: white;
     }
 }
 
-
-.header-text-milestone {
-  width: 85%;
-  padding-bottom: 22pt;
-  h6 {
-    text-align: right;
-    font-size: 1.7em;
+.milestone {
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  .milestone-header {
+    width: 100%;
+    h6 {
+      text-align: right;
+      font-size: 1.7em;
+    }
   }
 }
+
+
 
 .header-text-money {
   padding-bottom: 12pt;
@@ -124,12 +140,6 @@ $investment-color: white;
     }
 
 
-
-    .milestones {
-      width: 40%;
-      height: 100%;
-      background: #705959;
-    }
 
     p {
       color: white;

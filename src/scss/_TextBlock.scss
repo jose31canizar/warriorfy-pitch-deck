@@ -128,4 +128,8 @@ $text-block-color: #534b5d;
   display: flex;
   width: 75vw;
   justify-content: flex-end;
+  @media all and(max-width: $mobile-width) {
+    width: 90%;
+    flex-direction: column;
+  }
 }

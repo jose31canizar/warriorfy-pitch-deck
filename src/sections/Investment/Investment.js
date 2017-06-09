@@ -10,7 +10,7 @@ class Investment extends Component {
                     <div className='section-header'>
                         <h1>Seeking investors who believe healthcare needs more innovation.</h1>
                     </div>
-                    <div className='text-block-grid'>
+                    <div className='text-block-grid-investment'>
                         <div className='text-block-milestone'>
                             <div className='header-text-milestone'>
                                 <h6>Pre-Seed Round</h6>

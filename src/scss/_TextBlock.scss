@@ -45,3 +45,87 @@ $text-block-color: #534b5d;
     }
   }
 }
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text-block-container {
+  width: 66.66%;
+  @media all and (max-width: $skinny-mobile-width) {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+  h3 {
+    text-align: left;
+  }
+
+  .text-blocks {
+    display: flex;
+    @media all and (max-width: $skinny-mobile-width) {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      }
+    width: 95%;
+    justify-content: space-between;
+  }
+
+
+
+
+  .text-block-row {
+    width: 20vw;
+    @media all and (max-width: $skinny-mobile-width) {
+        width: 100%;
+      }
+  }
+
+
+  .text-block {
+    background: white;
+    border: 2px solid #3d3d41;
+    text-align: left;
+    margin-bottom: 10px;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+
+        h6 {
+          text-align: left;
+          padding-bottom: 12pt;
+          font-weight: 400;
+        }
+    }
+
+  .contact-block {
+    background: white;
+
+
+        h6 {
+          text-align: left;
+          padding-bottom: 12pt;
+          font-size: 1.7em;
+        }
+    }
+
+  .text-block-list
+  {
+    padding-top:8pt;
+  }
+}
+
+.text-block-grid-investment{
+  display: flex;
+  width: 75vw;
+  justify-content: flex-end;
+}

@@ -1,8 +1,11 @@
 $mobile-width: 1200px;
 $skinny-mobile-width: 800px;
 $global-color: #534b5d;
+$mobile-position: 40vh;
 
 @import '../components/NavBar/NavBar.scss';
+@import '../components/MenuBar/MenuBar.scss';
+@import '../components/MenuButton/MenuButton.scss';
 @import '../components/Label/Label.scss';
 
 @import '../sections/Intro/Intro.scss';
@@ -26,6 +29,20 @@ body {
 
   .wrapper {
     overflow-x: hidden;
+    background: white;
+    transition: all 0.35s ease;
+  }
+
+  .open {
+    @media all and(max-width: $mobile-width) {
+      transform: translateX($mobile-position);
+    }
+  }
+
+  .closed {
+    @media all and(max-width: $mobile-width) {
+      transform: translateX(0vh);
+    }
   }
 
   p, h1, h2, h3, h4, h5, h6 {

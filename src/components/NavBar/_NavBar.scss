@@ -4,6 +4,9 @@ $nav-bar-color: #7b728c;
 $nav-bar-text-color: #645e6f;
 
 .nav-bar {
+  @media all and(max-width: $mobile-width) {
+    display: none;
+  }
   display: flex;
   width: 100%;
   justify-content: space-around;

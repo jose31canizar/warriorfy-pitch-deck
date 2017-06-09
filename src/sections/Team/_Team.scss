@@ -17,6 +17,10 @@ $h2-team-text-color: #3d3d41;
       width: 100%;
       z-index: 999;
       color: #3d3d41;
+      @media all and(max-width: $mobile-width) {
+      text-align: left;
+      font-size: 1.5em;
+      }
     }
   }
 
@@ -57,19 +61,22 @@ $h2-team-text-color: #3d3d41;
     margin-right: 25px;
 
 
+
     @media all and(max-width: $mobile-width) {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 10vh;
+    margin: 3.0vh 0vh;
+    h6{
+      text-align: left;
+    }
     }
   }
 
   .team-members-row {
     display: flex;
     justify-content: center;
-    padding: 50px 0px;
 
     @media all and(max-width: $mobile-width) {
     display: block;

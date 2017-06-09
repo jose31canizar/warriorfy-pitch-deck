@@ -33,9 +33,6 @@ class Team extends Component {
                       <p>
                         {member.job_title}
                       </p>
-                      <p>
-                        {member.description}
-                      </p>
                   </div>
                 </div>
               ))}
@@ -58,9 +55,6 @@ class Team extends Component {
                       <p>
                         {member.job_title}
                       </p>
-                      <p>
-                        {member.description}
-                      </p>
                   </div>
                 </div>
               ))}
@@ -79,9 +73,6 @@ class Team extends Component {
                   </div>
                       <p>
                         {member.job_title}
-                      </p>
-                      <p>
-                        {member.description}
                       </p>
                   </div>
                 </div>

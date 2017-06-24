@@ -9,13 +9,13 @@ class MenuButton extends Component {
     this.handleClick = this.handleClick.bind(this)
   }
   handleClick() {
-    this.props.togglePosition()
     this.setState((prevState,props) => {
       if(prevState.position === 'icon-closed') {
         return { position: 'icon-open'}
       }
       return { position: 'icon-closed'}
     })
+    this.props.togglePosition()
   }
   render() {
     return (

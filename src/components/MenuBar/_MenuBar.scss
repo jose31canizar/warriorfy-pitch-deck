@@ -7,6 +7,7 @@ $menu-bar-text-color: #645e6f;
   @media all and(max-width: $mobile-width) {
     display: flex;
     z-index: 0;
+    overflow: hidden;
   }
   display: none;
   width: 100%;
@@ -46,6 +47,10 @@ $menu-bar-text-color: #645e6f;
       color: $menu-bar-text-color;
       font-weight: 300;
       padding-left: 10px;
+
+      @media all and(max-width: $skinny-mobile-width) {
+        font-size: 1.5em;
+      }
     }
   }
 

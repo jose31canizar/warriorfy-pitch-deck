@@ -35,6 +35,7 @@ body {
 
   .open {
     @media all and(max-width: $mobile-width) {
+      overflow: hidden;
       transform: translateX($mobile-position);
     }
   }

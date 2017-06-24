@@ -6,9 +6,9 @@
     object-position: 2% 50%;
     margin-bottom: 60px;
 
-    @media all and(max-width: 800px) {
-      width: 100vh;
-      margin-bottom: 60px;
+    @media all and(max-width: 500px) {
+      width: 100%;
+      margin-bottom: 20px;
       height: 70vh;
       object-fit: cover;
     }

@@ -34,7 +34,6 @@ class App extends Component {
         <div className={'wrapper ' + this.state.position}>
           <NavBar handleClick={this.handleClick}/>
           <MenuButton togglePosition={this.togglePosition}/>
-          <Intro/>
           <Sections/>
         </div>
         <MenuBar handleClick={this.handleClick}/>

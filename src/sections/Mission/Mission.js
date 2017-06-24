@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Mission extends Component {
   render() {
     return (
-    <div className='mission' id='mission'>
+    <div className='mission' id='Mission'>
       <div className='section-header'>
         <h1>Provide the ultimate journey to health and healing.</h1>
       </div>

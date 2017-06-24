@@ -4,7 +4,7 @@ import data from '../../content/traction';
 class Traction extends Component {
   render() {
     return (
-    <div className='traction' id='traction'>
+    <div className='traction' id='Traction'>
         <div className='section-header'>
           <h1>The Journey Until Now...</h1>
           <h1>Boostrapped MoM Platform Growth</h1>

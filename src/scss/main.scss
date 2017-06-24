@@ -31,6 +31,7 @@ body {
     overflow-x: hidden;
     background: white;
     transition: all 0.35s ease;
+    position: fixed;
   }
 
   .open {
@@ -42,7 +43,7 @@ body {
 
   .closed {
     @media all and(max-width: $mobile-width) {
-      transform: translateX(0vh);
+      // transform: translateX(0vh);
     }
   }
 

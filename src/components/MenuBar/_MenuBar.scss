@@ -6,8 +6,9 @@ $menu-bar-text-color: #645e6f;
 .menu-bar {
   @media all and(max-width: $mobile-width) {
     display: flex;
-    z-index: 0;
+    z-index: -1;
     overflow: hidden;
+    position: fixed;
   }
   display: none;
   width: 100%;

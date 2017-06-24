@@ -31,7 +31,11 @@ body {
     overflow-x: hidden;
     background: white;
     transition: all 0.35s ease;
-    position: fixed;
+    
+    @media all and(max-width: $mobile-width) {
+      position: fixed;
+    }
+
   }
 
   .open {

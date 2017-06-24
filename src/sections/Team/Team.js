@@ -11,7 +11,7 @@ class Team extends Component {
     console.log(topRow);
     console.log(middleRow);
     return (
-    <div className="Team">
+    <div className="Team" id="Team">
       <div className='section-header'>
           <h2>We build things people need and love to use.</h2>
         </div>

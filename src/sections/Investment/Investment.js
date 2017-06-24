@@ -5,7 +5,7 @@ import ContactBlock from '../ContactBlock/ContactBlock';
 class Investment extends Component {
     render() {
         return (
-            <div className='Investment'>
+            <div className='Investment' id="Investment">
                 <div className='container'>
                     <div className='section-header'>
                         <h1>Seeking investors who believe healthcare needs more innovation.</h1>

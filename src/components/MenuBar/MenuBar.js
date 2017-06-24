@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SmoothScroll from '../SmoothScroll';
 import data from '../../content/sections.json';
 
 class MenuBar extends Component {

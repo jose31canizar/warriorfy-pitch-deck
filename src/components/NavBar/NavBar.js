@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SmoothScroll from '../SmoothScroll';
 import data from '../../content/sections.json';
 
 class NavBar extends Component {
@@ -23,9 +24,11 @@ class NavBar extends Component {
         <div className='nav-bar-item'>
           <div className='nav-bar-circle'>
           </div>
-          <h4>
-          {item.title}
-          </h4>
+          <SmoothScroll section={item.title} className={item.title}>
+            <h4>
+              {item.title}
+            </h4>
+          </SmoothScroll>
         </div>
       ))}
       <div className='nav-bar-item'>

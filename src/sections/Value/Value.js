@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Value extends Component {
   render() {
     return (
-    <div className='value'>
+    <div className='value' id='value'>
       <div className='section-header'>
         <h1>
           Warriorfy is the first to combine educational audio content, self-tracking tools, and one-to-one support into one beautifully designed and easy-to-use platform.

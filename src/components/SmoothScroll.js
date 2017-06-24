@@ -75,7 +75,6 @@ var smoothScroll = {
 };
 
 var SmoothScroll = React.createClass({
-
     render: function () {
         //<div className="smooth-scroll--spacer" />
         return (

@@ -83,6 +83,7 @@ $text-block-color: #534b5d;
 
   .text-block-row {
     width: 20vw;
+    margin: 0px 5px;
     @media all and (max-width: $skinny-mobile-width) {
         width: 100%;
       }

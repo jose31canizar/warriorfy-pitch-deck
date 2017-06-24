@@ -31,16 +31,13 @@ body {
     overflow-x: hidden;
     background: white;
     transition: all 0.35s ease;
-    
-    @media all and(max-width: $mobile-width) {
-      position: fixed;
-    }
 
   }
 
   .open {
     @media all and(max-width: $mobile-width) {
       overflow: hidden;
+      position: fixed;
       transform: translateX($mobile-position);
     }
   }

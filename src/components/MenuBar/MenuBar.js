@@ -13,21 +13,17 @@ class MenuBar extends Component {
           Warriorfy
         </h3>
       </div>
-      <div className='menu-bar-item'>
-        <div className='menu-bar-circle'>
-        </div>
-        <h3>
-          Introduction
-        </h3>
-      </div>
+
       {data.map((item, i) => (
-        <div className='menu-bar-item'>
-          <div className='menu-bar-circle'>
+        <SmoothScroll section={item.title} className={item.title} mobile={true}>
+          <div className='menu-bar-item' onClick={this.props.togglePosition}>
+            <div className='menu-bar-circle'>
+            </div>
+            <h3>
+              {item.title}
+            </h3>
           </div>
-          <h3>
-          {item.title}
-          </h3>
-        </div>
+        </SmoothScroll>
       ))}
       <div className='menu-bar-item'>
         <div className='menu-bar-circle'>

@@ -36,7 +36,7 @@ class App extends Component {
           <MenuButton togglePosition={this.togglePosition}/>
           <Sections/>
         </div>
-        <MenuBar handleClick={this.handleClick}/>
+        <MenuBar handleClick={this.handleClick} togglePosition={this.togglePosition}/>
       </div>
     );
   }

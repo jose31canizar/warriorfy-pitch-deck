@@ -1,15 +1,37 @@
-var React = require('react');
+import React, { Component } from 'react';
 
-var negativeOffset = 200;
+class SmoothScroll extends Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        negativeOffset: 200,
+        timer: null
+      }
+      this.handleSectionClick = this.handleSectionClick.bind(this);
+      this.stop = this.stop.bind(this);
+      this.scrollTo = this.scrollTo.bind(this);
+    }
+    render() {
+        return (
+            <div className="smooth-scroll">
+                {React.Children.map(this.props.children, (child, i) => (
+                    <div
+                      className={this.props.className}
+                      onClick={this.handleSectionClick.bind(null, i)}>{child}
+                    </div>))}
+            </div>
+        );
+    }
 
-var smoothScroll = {
-    timer: null,
+    handleSectionClick(i) {
+        this.scrollTo(this.props.section);
+    }
 
-    stop: function () {
-        clearTimeout(this.timer);
-    },
+    stop() {
+        clearTimeout(this.state.timer);
+    }
 
-    scrollTo: function (id, callback) {
+    scrollTo(id, callback) {
         var settings = {
             duration: 1000,
             easing: {
@@ -39,12 +61,18 @@ var smoothScroll = {
         var targetY = (bottomScrollableY < delta) ?
             bottomScrollableY - (height - nodeTop - nodeHeight + offset) :
             delta;
-
         startTime = Date.now();
         percentage = 0;
+        console.log('height: ' + height);
+        console.log('delta: ' + delta);
+        console.log('nodeHeight: ' + nodeHeight);
+        console.log('windowHeight: ' + windowHeight);
+        console.log('bottomScrollableY: ' + bottomScrollableY);
+        console.log('nodeTop: ' + nodeTop);
+        console.log('offset: ' + offset);
 
-        if (this.timer) {
-            clearInterval(this.timer);
+        if (this.state.timer) {
+            clearInterval(this.state.timer);
         }
 
         function step() {
@@ -52,45 +80,29 @@ var smoothScroll = {
             var elapsed = Date.now() - startTime;
 
             if (elapsed > settings.duration) {
-                clearTimeout(this.timer);
+                clearTimeout(this.state.timer);
             }
 
             percentage = elapsed / settings.duration;
 
             if (percentage > 1) {
-                clearTimeout(this.timer);
+                clearTimeout(this.state.timer);
 
                 if (callback) {
                     callback();
                 }
             } else {
                 yScroll = settings.easing.outQuint(0, elapsed, offset, targetY, settings.duration);
-                window.scrollTo(0, yScroll - negativeOffset);
-                this.timer = setTimeout(step, 10);
+                if(this.props.mobile) {
+                  this.state.negativeOffset = 0;
+                }
+                window.scrollTo(0, yScroll - this.state.negativeOffset);
+                this.state.timer = setTimeout(step.bind(this), 10);
             }
         }
 
-        this.timer = setTimeout(step, 10);
+        this.state.timer = setTimeout(step.bind(this), 10);
     }
-};
+}
 
-var SmoothScroll = React.createClass({
-    render: function () {
-        //<div className="smooth-scroll--spacer" />
-        return (
-            <div className="smooth-scroll">
-                {React.Children.map(this.props.children, (child, i) => (
-                    <div
-                      className={this.props.className}
-                      onClick={this.handleSectionClick.bind(null, i)}>{child}
-                    </div>))}
-            </div>
-        );
-    },
-
-    handleSectionClick: function(i) {
-        smoothScroll.scrollTo(this.props.section);
-    }
-});
-
-module.exports = SmoothScroll;
+export default SmoothScroll;

@@ -40,8 +40,7 @@ $investment-color: white;
 
 
 .milestones {
-  width: 50%;
-  padding-right: 50px;
+  width: 20vw;
 
   @media all and (max-width: $skinny-mobile-width) {
       width: 97%;
@@ -60,24 +59,15 @@ $investment-color: white;
   }
 }
 
-
-
-.goal {
-  font-weight: 200;
-  padding: 0;
-  width: 100%;
-  text-align: right;
-  display: flex;
-  justify-content: flex-end;
-
-  p{
+  p {
+    width: 100%;
+    text-align: left;
     font-family: Oswald;
-    width: 79%;
+    padding: 10px 0px;
     @media all and(max-width: $mobile-width) {
       width: 100%;
     }
-    padding: 10px 0px;
-  }
+
 }
 
 
@@ -86,22 +76,22 @@ $investment-color: white;
   {
     color: #5fc5bb;
     font-size: 1em;
-    text-align: right;
-    padding-top: 5pt;
+    text-align: left;
+    padding-top: 0pt;
     padding-bottom: 15pt;
   }
 }
 
 
-.role {
-
-
-    .role-title {
-      color: #8B8B92;
-      font-size: 1em;
-      font-style: italic;
-      padding-top:7pt;
-    }
+li {
+  font-family: Oswald;
+  text-align: left;
+  list-style: none;
+  font-weight: 300;
+  color: #8B8B92;
+  font-size: 1em;
+  padding: 10pt 0;
+  text-shadow: 0 0 black;
 }
 
 .milestone {
@@ -120,8 +110,10 @@ $investment-color: white;
 
 
 
-.header-text-money {
-  padding-bottom: 12pt;
+.header-text {
+  padding: 45pt 0pt;
+  width: 50%;
+  text-align: left;
   h6 {
     text-align: center;
     font-size: 1.7em;

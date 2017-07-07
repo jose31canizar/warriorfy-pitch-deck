@@ -54,13 +54,13 @@ $text-block-color: #534b5d;
 }
 
 .text-block-container {
-  width: 66.66%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   @media all and (max-width: $skinny-mobile-width) {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
+
     }
 
   h3 {
@@ -69,13 +69,13 @@ $text-block-color: #534b5d;
 
   .text-blocks {
     display: flex;
+    width: 50%;
+    justify-content: center;
     @media all and (max-width: $skinny-mobile-width) {
       justify-content: center;
       align-items: center;
       flex-direction: column;
       }
-    width: 95%;
-    justify-content: space-between;
   }
 
 
@@ -122,15 +122,5 @@ $text-block-color: #534b5d;
   .text-block-list
   {
     padding-top:8pt;
-  }
-}
-
-.text-block-grid-investment{
-  display: flex;
-  width: 75vw;
-  justify-content: flex-end;
-  @media all and(max-width: $mobile-width) {
-    width: 90%;
-    flex-direction: column;
   }
 }

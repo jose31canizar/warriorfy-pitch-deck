@@ -39,20 +39,15 @@ $adoption-bg-color: white;
   }
 
   .adoption {
-    width: 75vw;
-
-    background: $adoption-bg-color;
+    width: 100%;
     display: flex;
-    padding-top: 20pt;
+    justify-content: center;
+    background: $adoption-bg-color;
 
     @media all and(max-width: $skinny-mobile-width) {
-      width: 75vw;
-      justify-content: center;
-      flex-direction: column;
     }
 
     .launch {
-      width: 66.666%;
       background: white;
 
       @media all and(max-width: $mobile-width) {
@@ -67,7 +62,7 @@ $adoption-bg-color: white;
         text-align: center;
         }
       }
-      p{
+      p {
         text-align: left;
         padding-top:5pt;
       }

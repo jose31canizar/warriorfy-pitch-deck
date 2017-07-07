@@ -1,6 +1,6 @@
 [
   {
-      "title":"Salaries",
+      "title":"Upgrade Technology",
       "description":"Our top priority is to hire for engineering, marketing, and operations:",
       "list":[
         "Full stack developer",
@@ -30,7 +30,7 @@
       ]
   },
   {
-      "title":"Business Development",
+      "title":"Content Development",
       "description":"Travel expenses to conferences to build partnerships and brand awareness.",
       "list":[
         "HXR: Jun 20-21 (Boston)",

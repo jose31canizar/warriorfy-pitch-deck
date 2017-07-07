@@ -31,17 +31,46 @@ $nav-bar-text-color: #645e6f;
     }
   }
 
+  a {
+    text-decoration: none;
+  }
+
+  .logo {
+    background-image: url("./../assets/img/00-Logo.png") !important;
+    background-size: 35px 35px;
+  }
+
+  .logo-angel-list {
+    background-image: url("./../assets/img/angel_list.png") !important;
+    background-size: 35px 35px;
+  }
+
+  .normal {
+    background: $nav-bar-background;
+  }
+
   .nav-bar-circle {
     width: 35px;
     height: 35px;
     border: 1px solid $nav-bar-color;
     border-radius: 50%;
-    background: $nav-bar-background;
     transition: all 0.2s ease-in-out;
     z-index: 11;
   }
 
-  .nav-bar-circle:hover {
+  .logo:hover {
+    filter: brightness(2);
+  }
+
+  .logo-angel-list:hover {
+    filter: brightness(2);
+  }
+
+  .selected {
+    background: $nav-bar-color;
+  }
+
+  .normal:hover {
     border-radius: 10%;
     background: $nav-bar-color;
   }

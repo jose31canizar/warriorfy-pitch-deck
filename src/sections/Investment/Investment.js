@@ -15,7 +15,7 @@ class Investment extends Component {
                         <div className='text-block-row'>
                             <div className='text-block'>
                               <div className='milestone-header'>
-                                  <h6>Pre-Seed Round</h6>
+                                  <h6>Milestones</h6>
                                   <div className='milestone-date'>
                                       <p>Close Date: July 11, 2017</p>
                                   </div>

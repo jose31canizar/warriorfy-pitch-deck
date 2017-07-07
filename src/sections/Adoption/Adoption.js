@@ -9,9 +9,9 @@ class Adoption extends Component {
       </div>
       <div className="container">
         <div className='subtitle-text'>
-          <h3>1.) Start with our existing subcommunity, Recovery Warriors</h3>
-          <h3>2.) Expand reach through digital advertising</h3>
-          <h3>3.) Strengthen brand through media exposure</h3>
+          <h3>• Start with our existing subcommunity, Recovery Warriors</h3>
+          <h3>• Expand reach through digital advertising</h3>
+          <h3>• Strengthen brand through media exposure</h3>
         </div>
         <div className='adoption'>
             <div className='example'>
@@ -19,17 +19,17 @@ class Adoption extends Component {
             </div>
             <div className='launch'>
               <h6>LAUNCH</h6>
-              <p>• Direct email</p>
-              <p>• Social media</p>
-              <p>• Online magazine </p>
-              <p>• Network outreach</p>
+              <li>• Direct email</li>
+              <li>• Social media</li>
+              <li>• Online magazine </li>
+              <li>• Network outreach</li>
             <div className='scale'>
               <h6>SCALE</h6>
-                <p>• Strong inbound sales funnel</p>
-                <p>• Audio advertisements on health-focused podcasts</p>
-                <p>• Affiliate marketing</p>
-                <p>• Treatment center partnerships</p>
-                <p>• PR</p>
+                <li>• Strong inbound sales funnel</li>
+                <li>• Audio advertisements on health-focused podcasts</li>
+                <li>• Affiliate marketing</li>
+                <li>• Treatment center partnerships</li>
+                <li>• PR</li>
                 </div>
                 </div>
           </div>

@@ -59,6 +59,17 @@ body {
     font-size: 1.1em;
   }
 
+  li {
+    font-family: Oswald;
+    text-align: left;
+    list-style: none;
+    font-weight: 300;
+    color: #8B8B92;
+    font-size: 1em;
+    padding: 10pt 0;
+    text-shadow: 0 0 black;
+  }
+
   h1, h2, h3, h4, h5, h6, strong {
     font-family: 'Oswald';
     font-weight: 100;
@@ -69,7 +80,7 @@ body {
   }
 
   h1 {
-    font-size: 5.135em;
+    font-size: 4.135em;
     font-weight: 300;
 
     @media all and(max-width: $mobile-width) {
